@@ -1,12 +1,13 @@
 package launcher;
 
+import ordenamientosEstudiantes.JuanFernandez;
 import ordenamientosEstudiantes.JuanLeyva;
 
 public class Pruebas {
 	public static void main(String[]args) {
 		
 		//Cambiar el null por el constructor de su clase!
-		JuanLeyva jl=null;
+		JuanLeyva jl=new JuanFernandez();
 		
 		String[] num= {"56","12","64","34","87","56"};
 		
